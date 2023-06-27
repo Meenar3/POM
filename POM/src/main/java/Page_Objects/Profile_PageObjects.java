@@ -11,7 +11,6 @@ import org.openqa.selenium.support.PageFactory;
 public class Profile_PageObjects {
 	
 	public static WebElement email; //without findby this is applicable only when the objects has id/name
-	
 	//@FindBy (how = How.NAME, using = "email") //method1
 	//public static WebElement username;
 	
