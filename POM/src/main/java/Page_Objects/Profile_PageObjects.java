@@ -14,7 +14,7 @@ public class Profile_PageObjects {
 	//@FindBy (how = How.NAME, using = "email") //method1
 	//public static WebElement username
 	
-	@FindBy (name = "password")  //method2
+	@FindBy (name = "password")  //method
 	public static WebElement password;
 	
 	@FindBy (xpath = "/html/body/app-root/app-signin/div/div/div/div/form/div[3]/p/button")
